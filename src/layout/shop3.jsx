@@ -32,23 +32,28 @@ function Layout() {
         Let's see if you qualify for any discounts. 
         </Text1>
 
-      <Image1> ./img/shoppingcart.png </Image1>
+      <Image1> ./img/discount.png </Image1>
         
 
         <div className="text2-container">
-          <p > Start typing to pick a school </p>
+          <p > Family Income </p>
         </div>
 
-        <div className="input-container">
-          <input type="text" />
-          <div>
-            <button className="close-button" id="close_progress_button">&times;</button>
-          </div>
+        <div className="select-container">
+          <select required >
+                      <option value="" disabled selected hidden>Select Income Range</option>
+                    <option value="Walk">$0 - $30,000</option>
+                    <option value="Run">$30,001 - $48,000</option>
+                    <option value="Swim">$48,001 - $75,000</option>
+                    <option value="Bike">$75,001 - $110,000</option>
+                    <option value="Yoga">$110,001 +</option>
+                  </select>
+          
         </div>
 
       </div>
 
-      <OrangeBtn>ADD TO CART</OrangeBtn>
+      <GreenBtn>GO</GreenBtn>
 
 
     </div>
