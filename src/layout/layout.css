@@ -1,0 +1,50 @@
+.main-container{
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 0;
+}
+
+input{
+  width:120%;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 30px;
+  padding-right: 2px;
+}
+
+.text2-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#special-text, .text2-container {
+  font-weight: bold;
+}
+
+.text2-container{
+  font-size: 1.3rem;
+}
+
+
+.close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.input-container{
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 3%;
+  padding-top: -5px;
+}

@@ -1,0 +1,35 @@
+.addBtn {
+  color: #F5F0E7;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.3rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  padding: 30px;
+}
+
+
+.button-orange {
+  background-color: #EDA04B;
+
+}
+
+.button-green {
+  background-color: #51b667;
+}
+

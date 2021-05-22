@@ -1,0 +1,10 @@
+.imgWrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#image_display{
+  max-width: 70%;
+}

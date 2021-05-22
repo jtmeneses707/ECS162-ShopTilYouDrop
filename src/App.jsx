@@ -1,47 +1,21 @@
 
 import React, { useRef, useEffect } from 'react';
 import MyD3Component from "./MyD3Component.jsx";
+import Layout from './layout/layout.jsx';
+
 import './App.css';
 
-// API key for accessing data from College Board.
+
+// API key for accessing data from gov College Data.
 const apiKey = "1Mv8QnLNFFMrQkMkN6AKDFYPACgTWR8CoXpzWpiS";
+
+// API call for getting first 99 schools awarding degres in call
+const apiCall = `https://api.data.gov/ed/collegescorecard/v1/schools.json?api_key=${apiKey}&school.state=CA&school.degrees_awarded.predominant=3&fields=school.name&per_page=99`;
 
 /* App */
 function App() {
-    return (
-      <div class="main-container">
-        
-       <div  class= "header-container">
-        <p> SHOP 'TIL YOU DROP </p> 
-         </div>
-
-        <div class = "text1-container"> 
-        <p> Tuition is the only the sticker price - you might be eligible for a big discount! Estimate the <i id = "special-text"> real </i> costs of college, for schools across the country. </p> 
-        </div>
-
-
-        <div class = "imgWrap"> 
-         <img id="shoppingcart" src="./img/shoppingcart.png" />
-         </div> 
-
-        <div class="text2-container"> 
-        <p > Start typing to pick a school </p>
-        </div>
-
-        <div> 
-        <input type="text" class = "input-shop" />
-        </div>
-
-        <div id="Add-cart" class="form-container">
-            <button id="AddtoCartButton" class="addBtn">ADD TO CART</button>
-        </div>
-
-
-        </div>
-    )
+  return <Layout/>
 }
-
-
 
 
 /*original code
@@ -54,8 +28,6 @@ function App() {
         </div>
 
  */
-
-
 
 
 export default App;
