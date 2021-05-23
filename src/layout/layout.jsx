@@ -13,7 +13,7 @@ import Shop4 from './shop4.jsx';
 // USE CLASSNAME, class does not exist in REACT and was giving an error in Console. 
 function Layout() {
   return (
-   <Shop2/>
+   <Shop4/>
   
   )
 }

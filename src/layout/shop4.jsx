@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { useState, useEffect } from 'react';
 
 import './layout.css';
+import './shop4.css';
 
 //button
 import GreenBtn from './../components/button/green_button.jsx';
@@ -20,24 +21,39 @@ function Shop4() {
     <div className="main-container">
 
       <BlueHeader> TOTAL </BlueHeader>
+      <img id = "image-shop4" src= "./img/receipt.png"/>  
 
-     
+      <div className = "subtitle-wrapper">
 
-      <Image1> ./img/receipt.png </Image1>
-        
-
-        <div className="text2-container">
-          <p > Start typing to pick a school </p>
+        <div className = "general-wrapper"> 
+        <div className = "special-wrapper"> 
+        <span className = "special-text">STANFORD UNIVERSITY</span><br/>
+        <span>PALO ALTO, CA</span>
         </div>
 
-        <div className="input-container">
-          <input type="text" />
-          <div>
-            <button className="close-button" id="close_progress_button">&times;</button>
-          </div>
+      </div>
+
+        <div className = "general-wrapper"> 
+        <p className="special-text"> TUITION </p>
+        <p> $11111 </p>
         </div>
 
-      
+
+        <div className = "general-wrapper"> 
+        <p className="special-text"> ROOM AND BOARD, FEES, SUPPLIES </p>
+        <div className = "total-shop2-break"> 
+          <p> $22222 </p>
+        </div>
+        </div>
+
+
+        <div className = "total-wrapper"> 
+        <span>TOTAL RETAIL PRICE**</span><br/>
+        <span id = "bold-total">$999999</span>
+        </div>
+
+
+      </div>
 
       <OrangeBtn>START OVER</OrangeBtn>
 

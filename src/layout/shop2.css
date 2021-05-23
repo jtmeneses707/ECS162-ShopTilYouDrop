@@ -1,0 +1,33 @@
+
+.subtitle-wrapper{
+  text-align: center;
+  position: absolute;
+  width: 311px;
+  top: 150px;
+  font-size: 1.2rem;
+}
+
+.total-shop2-break{
+  border-bottom: 2px dashed #000;
+}
+
+.special-wrapper{
+  margin: 0;
+  padding: 0; 
+}
+
+.total-wrapper{
+  padding:30px;
+}
+
+
+.image_wrapper{
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 17px;
+}
+
+
+#bold-total{
+  font-weight: bold;
+  font-size: 2.5rem;
+}

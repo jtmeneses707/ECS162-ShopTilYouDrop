@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { useState, useEffect } from 'react';
 
 import './layout.css';
+import './shop3.css';
 
 //button
 import GreenBtn from './../components/button/green_button.jsx';
@@ -39,9 +40,9 @@ function Shop3() {
           <p > Family Income </p>
         </div>
 
-        <div className="select-container">
+        <div>
           <select required onChange={(event) => setSchoolName(event.target.value)} >
-                    <option value="" disabled selected hidden>Select Income Range</option>
+                    <option value="" selected data-default>Select Income Range</option>
                     <option value="Walk">$0 - $30,000</option>
                     <option value="Run">$30,001 - $48,000</option>
                     <option value="Swim">$48,001 - $75,000</option>

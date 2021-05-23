@@ -1,0 +1,11 @@
+#default-select{
+color: rgba(0, 0, 0, 0.1)
+}
+
+select{
+  width: 305px;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2);
+}

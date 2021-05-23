@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { useState, useEffect } from 'react';
 
 import './layout.css';
+import './shop2.css';
 
 //button
 import GreenBtn from './../components/button/green_button.jsx';
@@ -63,38 +64,39 @@ function Shop2() {
     <React.Fragment>
       <BlueHeader> PRICE </BlueHeader>
       
-      
-      <img id="image_wrapper" src= "./img/pricetag.png"/>
+      <img className="image_wrapper" src= "./img/pricetag.png"/>
 
       <div className = "subtitle-wrapper">
+      
+        <div className = "general-wrapper"> 
         <p className="special-text"> SCHOOL </p>
-
-        <div> 
-          <p> STANFORD UNIVERSITY PALO ALTO, CA</p>
+        <div className = "special-wrapper"> 
+        <span>STANFORD UNIVERSITY</span><br/>
+        <span>PALO ALTO, CA</span>
+        </div>
         </div>
 
+        <div className = "general-wrapper"> 
         <p className="special-text"> TUITION </p>
-
-        <div> 
-          <p> $11111 </p>
+        <p> $11111 </p>
         </div>
 
-        <p className="special-text"> ROOM AND BOARD, FEES, SUPPLIES </p>
 
-        <div> 
+        <div className = "general-wrapper"> 
+        <p className="special-text"> ROOM AND BOARD, FEES, SUPPLIES </p>
+        <div className = "total-shop2-break"> 
           <p> $22222 </p>
         </div>
-
-        <p> TOTAL RETAIL PRICE** </p>
-        
-        <div> 
-          <p className="special-text"> $999999 </p>
         </div>
+
+
+        <div className = "total-wrapper"> 
+        <span>TOTAL RETAIL PRICE**</span><br/>
+        <span id = "bold-total">$999999</span>
+        </div>
+
+
       </div>
-      
-     
-
-
       
       <div className="text2-container">
           <p > **YOU MAY BE ELIGIBLE FOR A DISCOUNT! </p>
