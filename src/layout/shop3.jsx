@@ -15,7 +15,7 @@ import Text1 from './../components/text-content/text.jsx';
 import Image1 from './../components/image/image.jsx';
 
 // USE CLASSNAME, class does not exist in REACT and was giving an error in Console. 
-function Layout() {
+function Shop3() {
   return (
     <div className="main-container">
 
@@ -35,13 +35,13 @@ function Layout() {
       <Image1> ./img/discount.png </Image1>
         
 
-        <div className="text2-container">
+        <div className="text3-container">
           <p > Family Income </p>
         </div>
 
         <div className="select-container">
-          <select required >
-                      <option value="" disabled selected hidden>Select Income Range</option>
+          <select required onChange={(event) => setSchoolName(event.target.value)} >
+                    <option value="" disabled selected hidden>Select Income Range</option>
                     <option value="Walk">$0 - $30,000</option>
                     <option value="Run">$30,001 - $48,000</option>
                     <option value="Swim">$48,001 - $75,000</option>
@@ -59,5 +59,5 @@ function Layout() {
     </div>
   )
 }
-export default Layout;
+export default Shop3;
 

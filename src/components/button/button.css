@@ -2,14 +2,15 @@
   color: #F5F0E7;
   font-weight: bold;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-  width: 200px;
+  /* width: 200px; */
+   padding: 20px 40px;
 }
 
 button {
-  padding: 15px 20px;
+  padding: 15px 10px;
   border-radius: 30px;
   border: none;
-  font-size: 1.3rem;
+  font-size: 0.98rem;
 }
 
 button:hover {

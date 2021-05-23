@@ -1,8 +1,9 @@
 .imgWrap{
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
+  opacity: 0.7;
+  justify-content: center;
+  align-content: center;
 }
 
 #image_display{

@@ -5,7 +5,9 @@ import './button.css';
 function addBtn(props) {
   return (
     <div id="Add-cart" className="form-container">
-        <button id="AddtoCartButton" className="addBtn button-orange">{props.children}</button>
+        <button onClick={() => {
+          console.log(props.schoolName)
+        }} className="addBtn button-orange">{props.children}</button>
     </div>
   )
 }

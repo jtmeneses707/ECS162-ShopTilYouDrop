@@ -15,19 +15,15 @@ import Text1 from './../components/text-content/text.jsx';
 import Image1 from './../components/image/image.jsx';
 
 // USE CLASSNAME, class does not exist in REACT and was giving an error in Console. 
-function Layout() {
+function Shop4() {
   return (
     <div className="main-container">
 
       <BlueHeader> TOTAL </BlueHeader>
 
-      <div className="main-display">
+     
 
-      <Text1>
-          Tuition is the only the sticker price - you might be eligible for a big discount! Estimate the <i id="special-text"> real </i> costs of college, for schools across the country. 
-      </Text1>
-
-      <Image1> ./img/shoppingcart.png </Image1>
+      <Image1> ./img/receipt.png </Image1>
         
 
         <div className="text2-container">
@@ -41,7 +37,7 @@ function Layout() {
           </div>
         </div>
 
-      </div>
+      
 
       <OrangeBtn>START OVER</OrangeBtn>
 
@@ -49,5 +45,5 @@ function Layout() {
     </div>
   )
 }
-export default Layout;
+export default Shop4;
 
