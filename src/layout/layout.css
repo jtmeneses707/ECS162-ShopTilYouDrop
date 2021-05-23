@@ -8,6 +8,15 @@
   padding-top: 0;
 }
 
+.special-wrapper{
+  margin: 0;
+  padding: 0; 
+}
+
+.title-wrapper{
+  text-align: center;
+}
+
 
 input{
   width: 120%;

@@ -68,7 +68,7 @@ function Shop2() {
 
       <div className = "subtitle-wrapper">
       
-        <div className = "general-wrapper"> 
+        <div className = "title-wrapper"> 
         <p className="special-text"> SCHOOL </p>
         <div className = "special-wrapper"> 
         <span>STANFORD UNIVERSITY</span><br/>
