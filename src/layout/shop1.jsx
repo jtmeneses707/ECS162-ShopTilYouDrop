@@ -137,7 +137,8 @@ function Shop1(props) {
     'Westmont College',
     'Whittier College',
     'William Jessup University',
-    'Woodbury University'
+    'Woodbury University',
+    'John F. Kennedy University'
   ];
 
   function initalizeList() {

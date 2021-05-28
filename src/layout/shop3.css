@@ -10,6 +10,6 @@ select{
   box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2);
 }
 
-#standard-option, selected data-default {
+#standard-option, data-default {
     color: #999;
 }
