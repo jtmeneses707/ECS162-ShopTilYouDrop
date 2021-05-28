@@ -4,7 +4,7 @@ import './shop-header.css';
 
 function addHeader(props) {
   return (
-    <div className="header-container header-blue">
+    <div className="header-container header-red">
         <p>{props.children} </p>
     </div>
   )

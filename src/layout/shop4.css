@@ -69,8 +69,6 @@ table{
   width: 100%;
 }
 
-
-
 td.payment, td.total{
   text-align: end;
   padding-right: 5px;
@@ -81,7 +79,7 @@ td.payment, td.total{
 }
 
 td.payment, td.discount {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 

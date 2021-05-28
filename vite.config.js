@@ -13,9 +13,9 @@ export default {
     hmr: {
       port: 443,
     },
-    proxy: {
+    proxy: { // Connect to API backend server when doing fetch('/api')
       '/api': {
-        target: 'https://final-project-ajax-server-jtmenese.ecs162instruct.repl.co',
+        target: 'https://final-project-ajax-server-jtmenese.ecs162instruct.repl.co/',
         changeOrigin: true,
         secure: false,
         ws: true
