@@ -41,8 +41,9 @@ function Shop1(props) {
     'Academy of Art University',
     'Art Center College of Design',
     'Berkeley City College',
-    'Bethesda University',
     'Biola University',
+    'Boston University',
+    'Brown University',
     'Butte College',
     'California Baptist University',
     'California Christian College',
@@ -50,8 +51,9 @@ function Shop1(props) {
     'California Institute of Technology',
     'California Institute of the Arts',
     'California Lutheran University',
-    'California Miramar University',
     'California Polytechnic State University-San Luis Obispo',
+    'California State University Channel Islands',
+    'California State University Maritime Academy',
     'California State University-Bakersfield',
     'California State University-Chico',
     'California State University-Dominguez Hills',
@@ -64,45 +66,43 @@ function Shop1(props) {
     'California State University-Sacramento',
     'California State University-San Bernardino',
     'California State University-Stanislaus',
-    'California State University Channel Islands',
-    'California State University Maritime Academy',
     'Chapman University',
     'City College of San Francisco',
     'Claremont McKenna College',
-    'Cogswell College',
     'Columbia College Hollywood',
+    'Columbia University',
     'Concordia University-Irvine',
-    'Contra Costa College',
     'Cypress College',
     'De Anza College',
     'Design Institute of San Diego',
     'Dominican University of California',
-    'El Camino College',
+    'Drexel University',
+    'Emory University',
     'Fresno Pacific University',
+    'Harvard University',
     'Harvey Mudd College',
     'Holy Names University',
     'Hope International University',
-    'Humphreys University',
-    'Humphreys University-Stockton and Modesto Campuses',
     'Laguna College of Art and Design',
     'Life Pacific University',
     'Los Medanos College',
     'Loyola Marymount University',
+    'Massachusetts Institute of Technology',
     'Menlo College',
     'Mills College',
     "Mount Saint Mary's University",
     'National University',
-    'Newschool of Architecture and Design',
     'Notre Dame de Namur University',
     'Occidental College',
     'Otis College of Art and Design',
     'Pacific Union College',
-    'Pasadena City College',
     'Pepperdine University',
     'Pitzer College',
     'Platt College',
     'Point Loma Nazarene University',
+    'Princeton University',
     'Providence Christian College',
+    'Rice University',
     "Saint Mary's College of California",
     'San Diego Christian College',
     'San Diego State University',
@@ -116,7 +116,6 @@ function Shop1(props) {
     'Soka University of America',
     'Sonoma State University',
     'Stanford University',
-    "The Master's University and Seminary",
     'Thomas Aquinas College',
     'University of California-Berkeley',
     'University of California-Davis',
@@ -127,17 +126,17 @@ function Shop1(props) {
     'University of California-Santa Barbara',
     'University of California-Santa Cruz',
     'University of La Verne',
+    'University of Maryland',
+    'University of Pennsylvania',
     'University of Redlands',
     'University of Southern California',
-    'University of the Pacific',
-    'University of the West',
     'Vanguard University of Southern California',
-    'Victor Valley College',
     'West Coast University-Los Angeles',
     'Westmont College',
     'Whittier College',
     'William Jessup University',
     'Woodbury University',
+    'Yale University',
     'John F. Kennedy University'
   ];
 
@@ -152,11 +151,11 @@ function Shop1(props) {
     setLoading(false); // done fetching data...display search bar
   }
 
-  useEffect(function () { // only gets run when the component first created...
+  useEffect(function() { // only gets run when the component first created...
     console.log("Calling initalizeList");
     initalizeList();
   }, []);
-  
+
   return (
     <div className="main-container">
       <BlueHeader> SHOP TIL' YOU DROP </BlueHeader>
@@ -180,16 +179,16 @@ function Shop1(props) {
             />
           </div>
       }
-      
+
       {
-        schoolNameLocal == "" ? 
-        <Link to="/shop1" style={{ textDecoration: 'none' }}>
-          <OrangeBtn>ADD TO CART</OrangeBtn>
-        </Link>
-        :  
-        <Link to="/shop2" style={{ textDecoration: 'none' }}>
-          <OrangeBtn>ADD TO CART</OrangeBtn>
-        </Link>
+        schoolNameLocal == "" ?
+          <Link to="/shop1" style={{ textDecoration: 'none' }}>
+            <OrangeBtn>ADD TO CART</OrangeBtn>
+          </Link>
+          :
+          <Link to="/shop2" style={{ textDecoration: 'none' }}>
+            <OrangeBtn>ADD TO CART</OrangeBtn>
+          </Link>
       }
     </div>
   )
