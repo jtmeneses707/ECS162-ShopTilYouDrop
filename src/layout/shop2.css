@@ -1,66 +1,30 @@
+.image-text-wrapper{
+  background-image: url('./img/pricetag.png');
+  background-size: 100% 100%;
+}
 
 .subtitle-wrapper{
   text-align: center;
-  position: absolute;
   width: 311px;
-  top: 150px;
   font-size: 1.2rem;
+  margin-top: 10%
 }
 
 .total-shop2-break{
   border-bottom: 2px dashed #000;
 }
 
-
 .total-wrapper{
   padding:20px;
 }
-
 
 .image_wrapper{
   box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2);
   border-radius: 17px;
 }
 
-
 #bold-total{
   font-weight: bold;
   font-size: 2.5rem;
 }
 
-@media only screen and (min-width: 500px) {
- .subtitle-wrapper{
-   top: 170px;
- }
-}
-
-@media only screen and (min-width: 700px) {
- .subtitle-wrapper{
-   top: 190px;
- }
-}
-
-@media only screen and (min-width: 1000px) {
- .subtitle-wrapper{
-   top: 200px;
- }
-}
-
-
-@media only screen and (min-width: 1200px) {
- .subtitle-wrapper{
-   top: 220px;
- }
-}
-
-@media only screen and (min-width: 1500px) {
- .subtitle-wrapper{
-   top: 250px;
- }
-}
-
-@media only screen and (min-width: 1500px) {
- .subtitle-wrapper{
-   top: 270px;
- }
-}

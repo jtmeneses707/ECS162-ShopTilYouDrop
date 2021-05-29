@@ -53,7 +53,6 @@ function Shop4(props) {
   let content = (
     <React.Fragment>
       <BlueHeader> TOTAL </BlueHeader>
-      <img id="image-shop4" src="./img/receipt.png" />
       <div className="main-subtitile-shop4">
         <div className="table-wrapper">
           <div className="title-wrapper-shop4">

@@ -64,7 +64,7 @@ function Shop2(props) {
     content = (
       <React.Fragment>
         <BlueHeader> PRICE </BlueHeader>
-        <img className="image_wrapper" src= "./img/pricetag.png"/>
+        <div className = "image-text-wrapper">
         <div className = "subtitle-wrapper">      
           <div className = "title-wrapper"> 
           <p className="special-text"> SCHOOL </p>
@@ -87,6 +87,7 @@ function Shop2(props) {
           <span>TOTAL RETAIL PRICE**</span><br/>
           <span id = "bold-total">${totalFee.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}</span>
           </div>
+        </div>
         </div>
         <div className="text2-container">
             <p > **YOU MAY BE ELIGIBLE FOR A DISCOUNT! </p>
