@@ -10,7 +10,7 @@ import OrangeBtn from './../components/button/orange_button.jsx';
 import RedBtn from './../components/button/red_button.jsx';
 
 
-// //header
+//header
 import GreenHeader from './../components/heading/green_header.jsx';
 import BlueHeader from './../components/heading/blue_header.jsx';
 import RedHeader from './../components/heading/red_header.jsx';

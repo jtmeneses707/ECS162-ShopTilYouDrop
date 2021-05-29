@@ -7,7 +7,11 @@ main {
 body {
   font-family: "Open Sans", sans-serif;
   min-width: 320px;
-  max-width: 480px;
   background-color: #F5f0e7;
 }
 
+.super-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

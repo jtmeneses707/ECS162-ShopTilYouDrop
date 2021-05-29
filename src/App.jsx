@@ -10,7 +10,9 @@ import './App.css';
 /* App */
 function App() {
   return (
+    <div className = "super-container">
     <Layout/>
+    </div>
   )
 }
 

@@ -2,7 +2,7 @@
 .main-subtitile-shop4{
   position: absolute;
   max-width: 310px;
-  top: 145px;
+  top: 150px;
   font-size: 0.9rem;
 }
 
@@ -90,4 +90,41 @@ td.total-text, td.total{
 #legalcopy{
   font-size: 0.8rem;
   display:flex;
+}
+
+@media only screen and (min-width: 500px) {
+ .main-subtitile-shop4{
+   top: 170px;
+ }
+}
+
+@media only screen and (min-width: 700px) {
+ .main-subtitile-shop4{
+   top: 190px;
+ }
+}
+
+@media only screen and (min-width: 1000px) {
+ .main-subtitile-shop4{
+   top: 200px;
+ }
+}
+
+
+@media only screen and (min-width: 1200px) {
+ .main-subtitile-shop4{
+   top: 220px;
+ }
+}
+
+@media only screen and (min-width: 1500px) {
+ .main-subtitile-shop4{
+   top: 250px;
+ }
+}
+
+@media only screen and (min-width: 1500px) {
+ .main-subtitile-shop4{
+   top: 270px;
+ }
 }

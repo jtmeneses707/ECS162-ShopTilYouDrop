@@ -29,19 +29,20 @@ function Shop3(props) {
     <div className="main-container">
       <GreenHeader> DISCOUNTS </GreenHeader>
       <div className="main-display">
-      <Text1>
-         Remember, tuition is only the sticker price - you might be eligible for a big discount! 
+        <Text1>
+          Remember, tuition is only the sticker price - you might be eligible for a big discount!
       </Text1>
-        <Text1> 
-        Let's see if you qualify for any discounts. 
+        <Text1>
+          Let's see if you qualify for any discounts.
         </Text1>
-      <Image1> ./img/discount.png </Image1>
+        <Image1> ./img/discount.png </Image1>
+        <div>
         <div className="text3-container">
           <p > Family Income </p>
         </div>
         <div>
           <select required onChange={onChangeHandler}>
-            <option id = "standard-option" value="">Select Income Range</option>
+            <option id="standard-option" value="">Select Income Range</option>
             <option value="0-30000">$0 - $30,000</option>
             <option value="30001-48000">$30,001 - $48,000</option>
             <option value="48001-75000">$48,001 - $75,000</option>
@@ -49,16 +50,17 @@ function Shop3(props) {
             <option value="110001-plus">$110,001 +</option>
           </select>
         </div>
+        </div>
       </div>
       {
-        rangeLocal == 0 ? 
-        <Link to="/shop3" style={{ textDecoration: 'none' }}>
-          <GreenBtn>GO</GreenBtn>
-        </Link>
-        :  
-        <Link to="/shop4" style={{ textDecoration: 'none' }}>
-          <GreenBtn>GO</GreenBtn>
-        </Link>
+        rangeLocal == 0 ?
+          <Link to="/shop3" style={{ textDecoration: 'none' }}>
+            <GreenBtn>GO</GreenBtn>
+          </Link>
+          :
+          <Link to="/shop4" style={{ textDecoration: 'none' }}>
+            <GreenBtn>GO</GreenBtn>
+          </Link>
       }
     </div>
   )
